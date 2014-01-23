@@ -1,3 +1,36 @@
 [begin] (fluxbox)
-[include] (/etc/X11/fluxbox/fluxbox-menu)
+  [submenu] developpement
+    [exec] (Vim) {gnome-terminal -e vim}
+    [exec] (gedit) {gedit}
+  [end]
+  
+  [submenu] browsing
+    [exec] (Google chrome) {google-chrome}
+    [exec] (Firefox) {firefox}
+  [end]
+
+  [submenu] communication
+    [exec] (Thunderbird) {thunderbird}
+    [exec] (Skype) {skype}
+    [exec] (XChat) {xchat}
+  [end]
+
+  [submenu] network
+    [exec] (Filezilla) {filezilla}
+  [end]
+
+  [submenu] system
+    [exec] (Gnome terminal) {gnome-terminal}
+    [exec] (Virtualbox) {virtualbox}
+  [end]
+
+  [submenu] office
+    [exec] (Libre office) {libre-office}
+    [exec] (Evince) {evince}
+  [end]
+
+  [submenu] graphics
+    [exec] (The gimp) {gimp}
+    [exec] (Inkscape) {inkscape}
+  [end]
 [end]
